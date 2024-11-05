@@ -1,20 +1,19 @@
+# AppCalculadora
 
 ## 📱 Descrição
+Uma aplicação Android simples para realizar cálculos matemáticos básicos.
 
 ## 🔧 Funcionalidades
 
-- [x] 
-- [x] 
-- [x] 
-- [x] 
+- [x] Realização de cálculos matemáticos básicos (soma, subtração, multiplicação, divisão)
+- [x] Interface fácil de usar
+- [x] Exibição de resultados em tempo real
 
 ## 🚀 Tecnologias Utilizadas
 
 - [x] **Android Studio** (Bumblebee | 2024.1.2)
 - [x] **Java** para desenvolvimento
-- [x] 
-- [x] 
-- [x] 
+- [x] ConstraintLayout para criação de layouts responsivos
 
 ## 🛠️ Como Rodar o Projeto
 
@@ -31,10 +30,29 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 ## 📂 Estrutura do Projeto
 ```bash
+├── app
+│   ├── src
+│   │   ├── main
+│   │   │   ├── java
+│   │   │   │   └── appcalculadora
+│   │   │   │   ├── MainActivity.java            # Atividade principal com a lógica de cálculo
+│   │   │   ├── res
+│   │   │   │   ├── drawable
+│   │   │   │   │   ├── ic_launcher_background.xml           # Imagem de fundo do ícone do app
+│   │   │   │   │   ├── ic_launcher_foreground.xml           # Imagem em primeiro plano do ícone
+│   │   │   │   ├── layout
+│   │   │   │   │   └── activity_main.xml                    # Layout da tela principal com botões e visor
+│   │   │   │   ├── mipmap
+│   │   │   │   ├── values
+│   │   │   │   │   ├── strings.xml                         # Strings do app
+│   │   │   │   │   └── colors.xml                          # Cores do app
+│   │   │   ├── res (generated)                              # Arquivos gerados, como recursos
+│   │   │   ├── xml
+└── README.md                                          # Este arquivo
 ```
 
  ## 🖥️ Telas do Aplicativo. 
- 
+ ![image]( https://github.com/Cassielbr/AppCalculadora/blob/master/Calculadora.png)
 
 ## 👨‍💻 Desenvolvedores – 
 **Cassiel** - Desenvolvedor - [GitHub](https://github.com/Cassielbr)
